@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "710265240073",
+    "project_id": "parkfinder-bcd32",
+    "storage_bucket": "parkfinder-bcd32.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:710265240073:android:e89f0b3ce9f9ca936116d8",
+        "android_client_info": {
+          "package_name": "com.amier.modernloginregister"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "710265240073-psv1hav45l2m7no17i01me87339h2eqv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSIgwlEiMlA5mgRSkVFVcHLUQvP3hFkGc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "710265240073-psv1hav45l2m7no17i01me87339h2eqv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

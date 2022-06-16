@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".item_image">
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/tools"
+    android:layout_centerInParent="true"
+    android:gravity="center">
+    <RelativeLayout
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="250dp">
+        <androidx.cardview.widget.CardView
+            app:cardCornerRadius="15dp"
+            android:layout_marginTop="40dp"
+            app:cardElevation="10dp"
+            app:cardUseCompatPadding="true"
+            android:layout_width="match_parent"
+            android:layout_height="240dp">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_marginTop="23dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:gravity="center"
+                    android:text="Trindade Domus"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginBottom="10dp"
+                    android:gravity="center"
+                    android:text="subterrâneo - 350 lugares"
+                    android:textColor="#5C5A5A"
+                    android:textSize="13sp"
+                    android:textStyle="normal" />
+                <View
+                    android:background="#79D6D1D1"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"/>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:weightSum="3"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="Lotação atual:"
+                        android:textColor="@color/black"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+                    <View
+                        android:background="#79D6D1D1"
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent"/>
+                    <TextView
+                        android:layout_weight="1"
+                        android:text="200"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textSize="14sp"
+                        android:textColor="#636262"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"/>
+                    <View
+                        android:background="#79D6D1D1"
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent"/>
+                    <TextView
+                        android:layout_weight="1"
+                        android:text="5 reservas"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textSize="14sp"
+                        android:textColor="#636262"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"/>
+
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

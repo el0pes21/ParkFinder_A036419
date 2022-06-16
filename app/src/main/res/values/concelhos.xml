@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_concelho">Android Spinner</string>
+
+    <string-array name="concelhos">
+        <item>Amarante</item>
+        <item>Baião</item>
+        <item>Felgueiras</item>
+        <item>Gondomar</item>
+        <item>Lousada</item>
+        <item>Maia</item>
+        <item>Matosinhos</item>
+        <item>Marco de Canaveses</item>
+        <item>Paços de Ferreira</item>
+        <item>Paredes</item>
+        <item>Penafiel</item>
+        <item>Porto</item>
+        <item>Póvoa de Varzim</item>
+        <item>Santo Tirso</item>
+        <item>Trofa</item>
+        <item>Valongo</item>
+        <item>Vila do Conde</item>
+        <item>Vila Nova de Gaia</item>
+
+
+
+
+    </string-array>
+</resources>
